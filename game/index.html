@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이번엔 완성하자!!</title>
+    <script
+      src="https://kit.fontawesome.com/fa6aab1a0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="src/main.js" defer></script>
+  </head>
+  <body>
+    <main id="game">
+      <section class="game">
+        <button class="toggle__btn">toggle button</button>
+        <header class="game__title">Wellcome To My First Game</header>
+        <div>
+          <img class="pulsate-bck" src="img/bug.png" alt="#" />
+          <button class="game__button">
+            <i class="fas fa-play"></i>
+          </button>
+          <img class="pulsate-bck" src="img/bug.png" alt="#" />
+        </div>
+
+        <div class="game__box">
+          <span class="game__score">0</span>
+          <span class="game__level">Level </span
+          ><span class="game__timer">00:00</span>
+        </div>
+      </section>
+      <div class="game__field"></div>
+    </main>
+    <section class="pop-up pop-up_hidden">
+      <!-- <button class="pop-up__refresh"><i class="fas fa-reply-all"></i></button> -->
+      <soan class="pop-up__message">You Won!</soan>
+    </section>
+    <div class="toggle_content display non_display">
+      <button class="js_toggle">X</button>
+      <section class="toggle_section">
+        <h2>Introduction</h2>
+        <article>
+          Thanks for playing this game. Rules are really simple.
+        </article>
+        <div>■</div>
+        <article class="detail_description">
+          <span>🥇Goal: Collect all the carrots within the limited time.</span>
+          <span>💥Fail: Touch bugs / Time out.</span>
+          <span>Then good luck and hope you enjoy the game.🧡🤩</span>
+          <span
+            >✨Plus, there is special event every time you renew the first
+            record🤩</span
+          >
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
+
+<!-- <i class="fab fa-canadian-maple-leaf"></i> -->
+<!-- <i class="fas fa-hand-paper"></i> -->
